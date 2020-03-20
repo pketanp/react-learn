@@ -9,11 +9,15 @@ class Counter extends Component {
         }
     }
     increment() {
-        this.setState({
-            count: this.state.count + 1
-        }, () => {
-            console.log('colback value', this.state.count)
-        })
+        // this.setState({
+        //     count: this.state.count + 1
+        // }, () =>{
+        //     console.log('colback value', this.state.count )
+        // } )
+
+        this.setState((prevState, props) => ({
+            count: prevState.count + 1 //or if props.[addvalue]
+        }))
         console.log(this.state.count)
     }
 
