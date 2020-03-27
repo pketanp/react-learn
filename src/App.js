@@ -6,24 +6,24 @@ import Counter from "./component/Counter";
 import Message from "./component/Message";
 
 function App() {
-  return (
-    <div className="App">
-      {/* <Message /> */}
-      <Greet name="Ketan" aka=" pk..." />
-      <Welcome name="Ketan" aka=" pk..." />
-      {/*
+      return (
+            <div className="App">
+                  {/* <Greet name="Ketan" aka=" pk..." />
+      <Welcome name="Ketan" aka=" pk..." /> */}
+                  {/*
+      <Message /> 
       <Greet name='Ketan' aka=' pk...' >
-        <p>This is master</p>
+      <p>This is master</p>
       </Greet>
       <Greet name='Shreyas' aka='CS[fx]' >
-        <button>click</button>
+      <button>click</button>
       </Greet>
       <Welcome name='Ketan' aka=' pk...' />
       <Welcome name='Shreyas' aka='CS[fx]' />
       <Counter />
       */}
-    </div>
-  );
+            </div>
+      );
 }
 
 export default App;
