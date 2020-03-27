@@ -8,8 +8,8 @@ import Message from "./component/Message";
 function App() {
   return (
     <div className="App">
-      <Message />
-
+      {/* <Message /> */}
+      <Greet name="Ketan" aka=" pk..." />
       {/*
       <Greet name='Ketan' aka=' pk...' >
         <p>This is master</p>
