@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Welcome extends Component {
-    render() {
-        return <h1>Welcome {this.props.name} A.K.A {this.props.aka} </h1>
-
-    }
+  render() {
+    const { name, aka } = this.props;
+    return (
+      <h1>
+        Welcome {name} A.K.A {aka}{" "}
+      </h1>
+    );
+  }
 }
 export default Welcome;

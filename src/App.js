@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       {/* <Message /> */}
       <Greet name="Ketan" aka=" pk..." />
+      <Welcome name="Ketan" aka=" pk..." />
       {/*
       <Greet name='Ketan' aka=' pk...' >
         <p>This is master</p>
