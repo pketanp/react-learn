@@ -8,7 +8,6 @@ import FunctionClick from "./component/FunctionClick";
 import ClassClicks from "./component/ClassClicks";
 import EventBind from "./component/EventBind";
 import ParentComponent from "./component/ParrentComponent";
-import ChildComponent from "./component/ChildComponent";
 
 function App() {
 	return (
